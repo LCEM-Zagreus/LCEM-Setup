@@ -1,4 +1,4 @@
-# LCEM-Setup
+# LCEM Setup
 ## Legacy console edition minecraft
 The required steps to run your very own iteration of LCEM from source.
 
@@ -28,7 +28,19 @@ prerequisites:
 > Only gamepad controls.
 > Possible shim with: https://github.com/LCEMP/LCEMP/
 
----
 > [!CAUTION]
 > Might crash because of `SoundTypes.h`
 > There is a duplicate file under `Minecraft.Client`, remove duplicate and re-compile.
+
+# LCEM-DEV Setup
+## Legacy console edition minecraft
+Some tips for development.
+
+> [!NOTE]
+> Converting project to `visual studio 2026`:  
+> Download & Install `visual studio 2026`,  
+> Open project solution with newer version,  <br/>
+> May show setup assistant to convert to newer version of tooling and windows,  
+> Reject and continue working with `visual studio 2012` tooling and `windows 10 sdk`.  <br/>
+> If it's set to newer tooling, right click `Minecraft.Client` & `Minecraft.World`,  
+> `-> Properties -> Platform toolset -> Visual Studio 2012 (v110).`
