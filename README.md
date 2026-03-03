@@ -7,21 +7,17 @@ prerequisites:
 
 ---
 > [!NOTE]
-> https://archive.org/details/vs-2012-rc-ult-enu
-> Open the solution with `Visual Studio 2012` using 'Visual c++ profile'
-
-> [!NOTE]
-> in `Windows64_Minecraft.cpp`:
-> comment out: `createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;`
+> https://archive.org/details/vs-2012-rc-ult-enu  
+> Open the solution with `Visual Studio 2012` using 'Visual c++ profile'  
+> in `Windows64_Minecraft.cpp`:  
+> comment out: `createDeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;`  
 
 > [!WARNING]
 > Make sure speakers are plugged in, will possibly crash otherwise.
 
 > [!NOTE]
+> Select & right click `Minecraft.Client` from within the project, set as startup project.  
 > Select Windows64 solution platform and run with local windows debugger
-
-> [!NOTE]
-> Select & right click `Minecraft.Client` from within the project, set as startup project.
 
 > [!TIP]
 > Game should launch.
@@ -36,8 +32,7 @@ prerequisites:
 ## Legacy console edition minecraft
 Some tips for development.
 
-> [!NOTE]
-> Converting project to `visual studio 2026`:  
+> [!NOTE] Converting to visual studio 2026
 > Download & Install `visual studio 2026`,  
 > Open project solution with newer version,  <br/>
 > May show setup assistant to convert to newer version of tooling and windows,  
