@@ -32,7 +32,8 @@ prerequisites:
 ## Legacy console edition minecraft
 Some tips for development.
 
-> [!NOTE] Converting to visual studio 2026
+> [!NOTE]
+> Converting to `visual studio 2026`:  
 > Download & Install `visual studio 2026`,  
 > Open project solution with newer version,  <br/>
 > May show setup assistant to convert to newer version of tooling and windows,  
